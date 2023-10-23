@@ -1,0 +1,217 @@
+.fdiv{
+    /* width: 100vw; */
+    padding: 0;
+}
+
+.footer-div{
+    margin: 0;
+    padding: 100px;
+    /* background-color: #ebeaea; */
+    text-align: left;
+    background-color: #081158;
+    /* padding: 90px 0; */
+    /* background-color: #077df1; */
+    color: #fff;
+    /* text-align: center; */
+}
+
+.footer-div .col-sm-4{
+    width: 30%;
+}
+
+.footer-label{
+    margin-bottom: 35px;
+    color: #fff;
+    /* color: #081158; */
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer-label-two{
+    margin-top: 50px;
+}
+
+.footer-links{
+        /* font-family: Sato, sans-serif; */
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.2em;
+    -webkit-transition: opacity 500ms ease;
+    transition: opacity 500ms ease;
+    /* color: #081158; */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.footer-brand{
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.6em;
+    /* color: #081158; */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.footer-links-two{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6em;
+    -webkit-transition: opacity 500ms ease;
+    transition: opacity 500ms ease;
+    /* color: #081158; */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footsubdiv{
+    text-align: left;
+    margin: 10px 100px;
+
+}
+
+/* .footer-div p{
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+} */
+
+.cpdiv{
+    text-align: center;
+    padding: 50px 0 80px;
+    background-color: white;
+    margin: 0;
+}
+
+.logotext{
+    color: #1f3948;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.cpdiv p{
+    margin-bottom: 0;
+    color: #1f3948;
+    font-size: 13.6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .fdiv{
+        /* width: 100vw; */
+        padding: 0;
+        text-align: left;
+    }
+    
+    .footer-div{
+        margin: 0;
+        padding: 40px 10px;
+        /* background-color: #ebeaea; */
+        text-align: left;
+        background-color: #081158;
+        /* padding: 90px 0; */
+        /* background-color: #077df1; */
+        color: #fff;
+        /* text-align: center; */
+    }
+    
+    .footer-div .col-sm-4{
+        width: 30%;
+    }
+    
+    .footer-label{
+        margin-bottom: 14px;
+        color: #fff;
+        /* color: #081158; */
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    
+    .footer-label-two{
+        margin-top: 50px;
+    }
+    
+    .footer-links{
+            /* font-family: Sato, sans-serif; */
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.6em;
+        -webkit-transition: opacity 500ms ease;
+        transition: opacity 500ms ease;
+        /* color: #081158; */
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+    }
+    
+    .footer-links-two{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.6em;
+        -webkit-transition: opacity 500ms ease;
+        transition: opacity 500ms ease;
+        /* color: #081158; */
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+    
+    .footsubdiv{
+        text-align: left;
+        margin: 10px;
+    
+    }
+    
+    /* .footer-div p{
+        color: white;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+    } */
+    
+    .cpdiv{
+        text-align: center;
+        padding: 50px 0 80px;
+        background-color: white;
+        margin: 0;
+    }
+    
+    .logotext{
+        color: #1f3948;
+        font-weight: bolder;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .cpdiv p{
+        margin-bottom: 0;
+        color: #1f3948;
+        font-size: 13.6px;
+    }
+}

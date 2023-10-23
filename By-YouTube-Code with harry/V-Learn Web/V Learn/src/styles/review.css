@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+.reviewdiv{
+    padding: 40px 250px 100px ;
+    /* background: #ecf2fa; */
+    background: #eef0f4;
+}
+
+.reviewdiv h2{
+    /* margin-bottom: 40px; */
+    /* padding: 20px; */
+    /* color: #1f3948;
+    font-weight: 400;
+    letter-spacing: 1px; */
+    /* text-transform: uppercase; */
+    /* font-size: 35px; */
+    margin-top: 0px;
+    margin-bottom: 30px;
+    /* font-family: Sato, sans-serif; */
+    font-size: 64px;
+    line-height: 1.1em;
+    font-weight: 500;
+    text-align: center;
+    padding: 100px;
+}
+
+.reviewtext{
+    font-size: 13px;
+    margin-bottom: 60px;
+}
+
+.item{
+    margin-top: -70px;
+}
+
+.rev-card {
+    margin: 10px;
+    padding: 70px 20px;
+}
+
+/* .carddiv{
+    text-align: left;
+} */
+
+.cardcol{
+    text-align: left;
+}
+
+.rev-img{
+    height: 120px;
+    /* width: 80px; */
+    border-radius: 50%;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    z-index: 100;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 120px;
+    margin: 10px auto;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 145px;
+    left: -35px;
+    font-size: 35px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 145px;
+    right: -35px;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+.reviewdiv{
+    padding: 70px 10px;
+}
+
+.reviewsubdiv{
+    padding: 30px;
+}
+
+.reviewdiv h2{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    /* font-family: Sato, sans-serif; */
+    font-size: 30px;
+    line-height: 1.1em;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+
+.reviewtext{
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.item{
+    margin-top: 0;
+}
+
+.rev-card {
+    margin: 4px;
+    padding: 20px 5px;
+}
+
+.cardcol{
+    text-align: left;
+}
+
+.rev-img{
+    height: 60px;
+    /* width: 80px; */
+    border-radius: 50%;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+    z-index: 100;
+}
+
+.revtext{
+    font-size: 10px;
+    /* font-weight: 500; */
+}
+
+.revtext .name{
+    margin-bottom: 4px;
+    font-size: 11px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 60px;
+    margin: 10px auto;
+}
+
+/* .owl-item{
+    width: 180px;
+} */
+
+/* .item{
+    width: 45vw;
+} */
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 200px;
+    left: -25px;
+    font-size: 35px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 200px;
+    right: -25px;
+    font-size: 35px;
+}
+}

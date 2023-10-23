@@ -1,0 +1,112 @@
+.navmenudiv{
+    /* width: 98.9vw; */
+    padding: 20px 30px;
+    /* position: fixed; */
+    /* background-color: white; */
+    /* background-color: #90bdef; */
+    z-index: 100;
+}
+
+
+
+.navbar-brand {
+    font-weight: bold;
+    /* color: #1f3948; */
+    font-size: 25px;
+    /* color: #E6E6E6; */
+}
+
+.navbar-light .navbar-brand {
+    color: #1f3948;
+}
+
+/* .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+} */
+
+.navbar-expand-lg .navbar-collapse{
+    text-align: right;
+    position: absolute;
+    right: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0 2rem;
+    /* color: #E6E6E6; */
+    /* font-size: 17px;
+    font-weight: 400; */
+    /* line-height: 1.5; */
+    -webkit-text-size-adjust: 100%;
+    /* background: #fff; */
+    color: #1f3948;
+    font-size: 16px;
+    line-height: 70px;
+}
+
+.logo{
+    height: 65px;
+    width: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .navmenudiv{
+        width: 100vw;
+        padding: 10px;
+        /* position: fixed; */
+        /* background-color: white; */
+        z-index: 100;
+    }
+    
+    .navbar-brand {
+        font-weight: bold;
+        /* color: #1f3948; */
+        font-size: 25px;
+        /* color: #E6E6E6; */
+    }
+    
+    .navbar-light .navbar-brand {
+        color: #1f3948;
+    }
+    
+    .navbar-expand-lg .navbar-collapse{
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        top: 70px;
+        right: 5px;
+        width: 34vw;
+    }
+
+    /* .navbar-nav {
+        background-color: white;
+        position: absolute;
+        top: 33px;
+        left: -36px;
+        width: 34vw;
+    } */
+    
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 0 2rem;
+        /* color: #E6E6E6; */
+        /* font-size: 17px;
+        font-weight: 400; */
+        /* line-height: 1.5; */
+        -webkit-text-size-adjust: 100%;
+        /* background: #fff; */
+        color: #1f3948;
+        font-size: 13px;
+        line-height: 50px;
+    }
+  }

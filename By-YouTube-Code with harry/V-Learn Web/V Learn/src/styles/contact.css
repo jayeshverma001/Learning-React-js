@@ -1,0 +1,201 @@
+.contactdiv{
+    padding: 0;
+    /* background-color: #ecf2fa; */
+    text-align: center;
+}
+
+.contactsubdiv{
+    padding: 100px;
+    margin: 0;
+    background-color: #ecf2fa;
+}
+
+.contact-img{
+    height: 75vh;
+    width: 98.9vw;
+    margin: 10px auto 0;
+}
+
+.contactcolone{
+    padding: 0 100px;
+    text-align: center;
+}
+
+.contactbtn{
+    min-width: 200px;
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 20px 20px 20px 40px;
+    border: 0px solid #000;
+    border-radius: 6px;
+    background-color: #081158;
+    /* background-image: url(https://assets.website-files.com/5e80894…/5e808dc…_Vector%204.svg); */
+    background-position: 20px 50%;
+    background-size: auto 15px;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contactbtn:hover{
+    background-color: white;
+    color: #081158;
+    border: 1px solid #081158;
+}
+
+.contactbtn:focus{
+    background-color: white;
+    color: #081158;
+    border: 1px solid #081158;
+}
+
+.contactcoltwo{
+    padding: 0 0 0 50px;
+    text-align: left;
+}
+
+.contactcoltwo h2{
+    /* padding: 20px 0 10px;
+    color: #1f3948;
+    font-weight: 300;
+    text-shadow: 1px 1px #1f3948;
+    letter-spacing: 1px;
+    text-transform: uppercase; */
+    margin-top: 0px;
+    margin-bottom: 30px;
+    /* font-family: Sato, sans-serif; */
+    font-size: 64px;
+    line-height: 1.1em;
+    font-weight: 400;
+    text-align: left;
+    padding: 0;
+    /* padding: 100px 250px 50px ; */
+}
+
+.contactcoltwo p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.6em;
+    margin-top: 0;
+    color: #081158;
+    text-align: left;
+    /* color: #419cd6; */
+    /* color: #2a698d; */
+    /* letter-spacing: 1.5px; */
+    /* font-size: 15px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .contactdiv{
+        padding: 0;
+        /* background-color: #ecf2fa; */
+        text-align: center;
+    }
+    
+    .contactsubdiv{
+        padding: 10px;
+        margin: 0;
+        background-color: #ecf2fa;
+    }
+    
+    .contact-img{
+        height: 35vh;
+        width: 100vw;
+        margin: 10px auto 0;
+    }
+    
+    .contactcolone{
+        padding: 50px 10px;
+        text-align: center;
+    }
+    
+    .contactbtn{
+        min-width: 200px;
+        margin-top: 15px;
+        font-size: 14px;
+        padding: 20px 20px 20px 40px;
+        border: 0px solid #000;
+        border-radius: 6px;
+        background-color: #081158;
+        /* background-image: url(https://assets.website-files.com/5e80894…/5e808dc…_Vector%204.svg); */
+        background-position: 20px 50%;
+        background-size: auto 15px;
+        line-height: 1.2em;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    
+    .contactbtn:hover{
+        background-color: white;
+        color: #081158;
+        border: 1px solid #081158;
+    }
+    
+    .contactbtn:focus{
+        background-color: white;
+        color: #081158;
+        border: 1px solid #081158;
+    }
+    
+    .contactcoltwo{
+        padding: 50px 20px;
+        text-align: left;
+    }
+    
+    .contactcoltwo h2{
+        /* padding: 20px 0 10px;
+        color: #1f3948;
+        font-weight: 300;
+        text-shadow: 1px 1px #1f3948;
+        letter-spacing: 1px;
+        text-transform: uppercase; */
+        margin-top: 0px;
+        margin-bottom: 30px;
+        /* font-family: Sato, sans-serif; */
+        font-size: 35px;
+        line-height: 1.1em;
+        font-weight: 400;
+        text-align: left;
+        padding: 0;
+        /* padding: 100px 250px 50px ; */
+    }
+    
+    .contactcoltwo p{
+        font-size: 15px;
+        margin-bottom: 10px;
+        line-height: 1.6em;
+        margin-top: 0;
+        color: #081158;
+        text-align: left;
+        /* color: #419cd6; */
+        /* color: #2a698d; */
+        /* letter-spacing: 1.5px; */
+        /* font-size: 15px; */
+    }
+}

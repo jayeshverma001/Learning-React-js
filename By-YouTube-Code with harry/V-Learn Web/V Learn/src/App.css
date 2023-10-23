@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+.App {
+  text-align: center;
+  width: 99.7vw;
+  font-family: Sato, sans-serif;
+  /* color: black; */
+  color: #081158;
+  /* font-family: 'Red Hat Display', sans-serif; */
+  font-size: 14px;
+  line-height: 1.6em;
+  /* font-weight: 600; */
+  /* background-color: #E6E6E6; */
+}
+
+
+@font-face {
+  font-family: Sato,sans-serif;
+  src: url(Sato-Medium.ttf);
+}
+
+
+.subappdiv{
+  background-color: #eef0f4;
+  padding: 0;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    width: 103vw;
+  }
+}

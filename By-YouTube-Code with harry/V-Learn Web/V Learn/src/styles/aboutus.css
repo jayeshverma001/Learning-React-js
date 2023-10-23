@@ -1,0 +1,275 @@
+.aboutdiv{
+    background-color: transparent;
+    color: #081158;
+}
+
+.aboutimg{
+    height: 72vh;
+    width: 98.9vw;
+}
+
+.textdiv{
+    padding: 50px 100px;
+}
+
+.textdiv h2{
+    /* padding: 20px 0 10px;
+    color: #1f3948;
+    font-weight: 300;
+    text-shadow: 1px 1px #1f3948;
+    letter-spacing: 1px;
+    text-transform: uppercase; */
+    margin-top: 0px;
+    margin-bottom: 30px;
+    /* font-family: Sato, sans-serif; */
+    font-size: 64px;
+    line-height: 1.1em;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 20px;
+    text-align: center;
+    padding: 100px 250px 50px ;
+}
+
+.textdiv p{
+    padding: 0 40px;
+    /* text-align: left;
+    /* color: #419cd6; */
+    /* color: #2a698d;
+    letter-spacing: 1.5px;
+    font-size: 15px; */
+    /* max-width: 500px; */
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.6em;
+    margin-top: 0;
+    color: #081158;
+}
+
+.team-div{
+    background-color: white;
+    padding: 100px 230px;
+    text-align: center;
+}
+
+.team-div h2{
+    /* padding: 20px 0 10px;
+    color: #1f3948;
+    font-weight: 300;
+    text-shadow: 1px 1px #1f3948;
+    letter-spacing: 1px;
+    text-transform: uppercase; */
+    margin-top: 0px;
+    margin-bottom: 30px;
+    /* font-family: Sato, sans-serif; */
+    font-size: 64px;
+    line-height: 1.1em;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 20px;
+    text-align: center;
+    padding: 100px 250px 50px ;
+}
+
+.aboutcard{
+    text-align: center;
+    width: 15vw;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 0 5px 30px hsl(0deg 0% 53% / 35%);
+    transition: all 0.7s ease;
+    transform: scale(1);
+    /* border: 1px solid hsl(0deg 0% 53% / 35%); */
+}
+
+.aboutcard:hover{
+  /* transition: all 0.2s ease-in-out;
+  transform: scale(1.1); */
+  transform: scale(1.1);
+  /* box-shadow: 0 5px 30px hsl(0deg 0% 53% / 35%); */
+  border: 0;
+  cursor: pointer;
+  box-shadow: none;
+  background-color: #081158;
+}
+
+.aboutcard-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.aboutcard .h5{
+    /* padding: 20px 0 30px; */
+    color: #1f3948;
+    font-weight: bold;
+    /* text-shadow: 1px 1px #1f3948; */
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.aboutcard:hover .h5{
+    color: white;
+}
+
+.aboutcard p{
+    /* padding: 20px; */
+    /* text-align: left; */
+    /* color: #419cd6; */
+    color: #2a698d;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.aboutcard:hover p{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .aboutdiv{
+        background-color: transparent;
+        color: #081158;
+    }
+    
+    .aboutimg{
+        height: 35vh;
+        width: 98.9vw;
+    }
+    
+    .textdiv{
+        padding: 80px 0 60px;
+    }
+    
+    .textdiv h2{
+        padding: 0 0 30px;
+        /* color: #1f3948;
+        font-weight: 300;
+        text-shadow: 1px 1px #1f3948;
+        letter-spacing: 1px;
+        text-transform: uppercase; */
+        margin-top: 0px;
+        margin-bottom: 20px;
+        /* font-family: Sato, sans-serif; */
+        font-size: 32px;
+        line-height: 1.1em;
+        font-weight: 500;
+        text-align: center;
+        text-align: center;
+    }
+    
+    .textdiv p{
+        padding: 0 10px;
+        /* text-align: left;
+        /* color: #419cd6; */
+        /* color: #2a698d;
+        letter-spacing: 1.5px;
+        font-size: 15px; */
+        /* max-width: 500px; */
+        font-size: 15px;
+        margin-bottom: 30px;
+        line-height: 1.6em;
+        margin-top: 0;
+        color: #081158;
+    }
+    
+    .team-div{
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .team-div h2{
+        /* padding: 20px 0 10px;
+        color: #1f3948;
+        font-weight: 300;
+        text-shadow: 1px 1px #1f3948;
+        letter-spacing: 1px;
+        text-transform: uppercase; */
+        margin-top: 0px;
+        margin-bottom: 30px;
+        /* font-family: Sato, sans-serif; */
+        font-size: 32px;
+        line-height: 1.1em;
+        font-weight: 500;
+        text-align: center;
+        padding: 0 20px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .aboutcard{
+        text-align: center;
+        width: 42vw;
+        display: inline-block;
+        margin: 10px;
+        box-shadow: 0 5px 30px hsl(0deg 0% 53% / 35%);
+    }
+    
+    .aboutcard:hover{
+        background-color: #081158;
+        /* color: ; */
+        /* background-color: #419cd6; */
+        /* color: white; */
+        transition: 0.3s ease-in-out;
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: none;
+    }
+    
+    .aboutcard-img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin: 10px auto;
+    }
+    
+    .aboutcard .h5{
+        /* padding: 20px 0 30px; */
+        color: #1f3948;
+        font-weight: bold;
+        /* text-shadow: 1px 1px #1f3948; */
+        letter-spacing: 1px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .aboutcard:hover .h5{
+        color: white;
+    }
+    
+    .aboutcard p{
+        /* padding: 20px; */
+        /* text-align: left; */
+        /* color: #419cd6; */
+        color: #2a698d;
+        letter-spacing: 1.5px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    
+    .aboutcard:hover p{
+        color: white;
+    }
+}
