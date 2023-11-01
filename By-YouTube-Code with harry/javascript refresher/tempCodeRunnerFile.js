@@ -1,0 +1,1 @@
+const Kitten = mongoose.model('Kitten', kittySchema);
